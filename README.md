@@ -18,3 +18,14 @@ Then run:
 ```bash
 make help
 ```
+
+
+### Things to do next
+
+* Create docker-compose file to run the database
+* Create script to create a database dump
+* Create script to restore a backup
+* Create script to run migrations
+* Go through make file in db-utils and see what you can incorporate
+* Check if you can host a postgres database on the home server
+* What is pg_admin?
