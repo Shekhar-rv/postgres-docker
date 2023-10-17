@@ -11,8 +11,6 @@ This is a docker image for postgres. It is based on the official postgres image,
 
 Ensure you have an up to date version of docker. Specificially that support docker compose --wait
 
-Copy .env.aws.dist to .env.aws and input your credentials into the file.
-
 Then run:
 
 ```bash
@@ -22,10 +20,7 @@ make help
 
 ### Things to do next
 
-* Create docker-compose file to run the database
-* Create script to create a database dump
-* Create script to restore a backup
+* Check how to get .pgpass working
 * Create script to run migrations
 * Go through make file in db-utils and see what you can incorporate
 * Check if you can host a postgres database on the home server
-* What is pg_admin?

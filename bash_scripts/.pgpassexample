@@ -1,0 +1,2 @@
+# Create a .pgpass file in the same directory as the script with the following contents:
+hostname:port:database:username:password

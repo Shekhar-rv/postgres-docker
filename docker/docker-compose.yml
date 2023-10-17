@@ -50,7 +50,6 @@ services:
     image: postgres:13
     environment:
       POSTGRES_PASSWORD: dev
-      # POSTGRES_DB: dev
     networks:
       - default
     ports:
