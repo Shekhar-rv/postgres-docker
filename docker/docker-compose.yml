@@ -14,7 +14,7 @@ services:
     depends_on:
       local-db-postgres:
         condition: service_healthy
-    # command: migrate
+    command: migrate
     volumes:
       - ${PWD}/scripts:/flyway/sql
       - ${PWD}/conf:/flyway/conf

@@ -21,7 +21,7 @@ help:
 	@echo ""
 	@echo "Please use ${BOLD}'make <target>'${NONE}  where ${BOLD}<target>${NONE} is one of"
 	@echo ""
-	@echo " ${BOLD}create${NONE} : ${GREEN}Creates a database server and restores the data from staging into it${NONE}"
+	@echo " ${BOLD}create${NONE} : ${GREEN}Creates a database server and restores the data from your local backup${NONE}"
 	@echo " ${BOLD}resume${NONE} : ${GREEN}Resumes your existing database server${NONE}"
 	@echo " ${BOLD}stop${NONE} : ${GREEN}Stops your database server without losing data${NONE}"
 	@echo " ${BOLD}details${NONE} : ${GREEN}Gives you the connection details for postgres and pgadmin${NONE}"
